@@ -10,6 +10,9 @@ import "../interface.sol";
 // Vulnerable Contract : https://arbiscan.io/address/0x62cf82fb0484af382714cd09296260edc1dc0c6c
 // Attack Tx : https://arbiscan.io/tx/0x6a2f989b5493b52ffc078d0a59a3bf9727d134b403aa6e0bf309fd513a728f7f
 
+// @Analysis
+// https://blog.solidityscan.com/deltaprime-hack-analysis-44edb9b22567
+
 interface ISmartLoansFactoryTUP {
     function createLoan() external returns (address);
 }
